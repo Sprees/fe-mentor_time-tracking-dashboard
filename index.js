@@ -16,7 +16,7 @@ filterBtns.forEach((btn) => {
 
 async function fetchTimeData() {
     try {
-        const requestURL = './data.json'
+        const requestURL = 'data.json'
         const request = new Request(requestURL)
         const response = await fetch(request)
 
