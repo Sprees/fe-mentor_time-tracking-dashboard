@@ -16,7 +16,7 @@ filterBtns.forEach((btn) => {
 
 async function fetchTimeData() {
     try {
-        const requestURL = 'https://sprees.github.io/fe-mentor_time-tracking-dashboard/data.json'
+        const requestURL = './data.json'
         const request = new Request(requestURL)
         const response = await fetch(request)
 
