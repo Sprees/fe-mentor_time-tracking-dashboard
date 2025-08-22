@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+        <script
+            defer
+            src="/index.js"
+        ></script>
+
+        <title>Frontend Mentor | Time tracking dashboard</title>
+    </head>
+    <body>
+        <main class="dashboard wrapper">
+            <section class="card card--avatar">
+                <div class="card--avatar__avatar-title-wrapper">
+                    <div class="card--avatar__avatar">
+                        <img
+                            src="./assets/images/image-jeremy.png"
+                            alt="Profile image of Jeremy"
+                        />
+                    </div>
+                    <div class="card--avatar__title-wrapper">
+                        <span class="accent-text-sm">Report for</span>
+                        <h1>Jeremy Robson</h1>
+                    </div>
+                </div>
+                <div class="card--avatar__btn-wrapper">
+                    <button
+                        class="btn"
+                        type="button"
+                        data-timeframe="daily"
+                    >
+                        Daily
+                    </button>
+                    <button
+                        class="btn active"
+                        type="button"
+                        data-timeframe="weekly"
+                    >
+                        Weekly
+                    </button>
+                    <button
+                        class="btn"
+                        type="button"
+                        data-timeframe="monthly"
+                    >
+                        Monthly
+                    </button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
